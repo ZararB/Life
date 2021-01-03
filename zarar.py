@@ -1,6 +1,5 @@
 import Human from human
-import Model from model
-import KnowledgeGraph from knowledgeGraph 
+
 
 class Zarar(Human):
 
@@ -8,8 +7,6 @@ class Zarar(Human):
 
 		self.dna = dna 
 		self.history = history or []
-		self.model = Model()
-		self.knowledgeGraph = KnowledgeGraph()
 
 	def act(self, state):
 
@@ -25,11 +22,11 @@ class Zarar(Human):
 		return None
 	
 	def solve(self, problem):
-		
+	
 		return solution
 	
 	def update(self, data):
-
+		
 		self.model.update(data)
 
 	def learn(self, data):

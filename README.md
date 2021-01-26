@@ -1,3 +1,3 @@
 # Overview
 
-Pseudocode of this existence
+Pseudocode of the class that I am an instance of.
